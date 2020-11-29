@@ -5,14 +5,14 @@ import TelegramIcon from '@material-ui/icons/Telegram';
 import './App.css';
 
 import CoverPic from './assets/cover.jpg'
-import Abhineet from './assets/abhineet.jpg'
-import Raksha from './assets/raksha.jpeg'
+import Image1 from './assets/img1.jpeg'
 import Image2 from './assets/img2.jpeg'
-import eCard from './assets/e-card.jpeg'
+import Invitation1 from './assets/invitation1.jpg'
+import Invitation2 from './assets/invitation2.jpg'
 import loading from './assets/loading.gif'
 
 import weddingSong from './assets/wedding.mp3'
-import eVideo from './assets/e-video.mp4'
+//import eVideo from './assets/e-video.mp4'
 
 const buttonConfig = [
     {
@@ -20,44 +20,53 @@ const buttonConfig = [
       id: 'wedding date' 
     },
     {
-      label: '🕺🏼 When is the Sangeet? 💃',
-      id: 'sangeet date'
+      label: 'When is the Haldi?',
+      id: 'haldi date'
     },
     {
-      label: 'Invitation Card & Video',
+      label: 'When is the Reception?',
+      id: 'reception date'
+    },
+    {
+      label: 'Invitation Card',
       id: 'invitation'
     },
     {
       label: 'Want to see your pics 😍',
       id: 'personal pics'
     },
-    {
-      label: 'Where do I need to come?',
-      id: 'location'
-    },  
+    // {
+    //   label: 'Where do I need to come?',
+    //   id: 'location'
+    // },  
 ]
 
 const botConfig = {
   'wedding date': {
-    text: [`It's on the <b>11th</b> of December.`, `Yeah we know, it's less than even a month and we are super nervous!`, `Please be there by 6pm 🙏 `],
+    text: [`It's on the <b>10th</b> of December.`, `Yeah we know, it's less than even a month and we are super nervous!`],
     audio:  weddingSong
   },
-  'sangeet date': {
-    text: [`It's on the <b>10th</b> of December.`, `Yeah! He is a really good dancer 🕺. I am not so bad myself 💃🏻`, `Please be there by 6pm 🙏 `]
+  'haldi date': {
+    text: [`It's on the <b>9th</b> of December.`]
   },
   'personal pics': {
-    image: [Abhineet, Raksha, Image2],
+    image: [CoverPic, Image1, Image2],
     text: [`Here you go`],
   },
-  'location': {
-    text: [`It's at <b>Sri Sitaramji Bhawan, Raniganj</b>`, 'you can just follow google maps:'],
+  'reception date': {
+    text: [`It's on the <b>12th</b> of December at <b>Sports assembly, Raniganj</b>`, 'you can just follow google maps:'],
     location: 'https://tars-file-upload.s3.amazonaws.com/ByNADi/e8e72425e745b4a32703175a09276c0a--staticmap.png',
-    link: 'https://goo.gl/maps/AA7CtMdjwJcqzzs68'
+    link: 'https://goo.gl/maps/qmqbnXyqk1abKGuT9'
   },
+  // 'location': {
+  //   text: [`It's at <b>Sports assembly, Raniganj</b>`, 'you can just follow google maps:'],
+  //   location: 'https://tars-file-upload.s3.amazonaws.com/ByNADi/e8e72425e745b4a32703175a09276c0a--staticmap.png',
+  //   link: 'https://goo.gl/maps/AA7CtMdjwJcqzzs68'
+  // },
   'invitation': {
     text: [`We may not have it all together, but together we have it all.`],
-    image: [eCard],
-    video: eVideo
+    image: [Invitation1, Invitation2],
+    //video: eVideo
   }
 }
 
@@ -65,7 +74,7 @@ function App() {
   const [chatData, setChatData] = useState([
     {
         image: [CoverPic],
-        text: ['Hey! 😊', `We, <b>Abhineet</b> and <b>Raksha</b> are getting married. 💍`, 'And we want you to be a part of this celebration as we take the next step together.']
+        text: ['Hey! 😊', `We, <b>Narendra</b> and <b>Payel</b> are getting married. 💍`, 'And we want you to be a part of this celebration as we take the next step together.']
     }
     ]
   )
@@ -139,11 +148,7 @@ function App() {
       audioRef.current.pause();
       audioRef.current.play();
     }
-    if(userSelection === 'invitation') {
-      videoRef.current.addEventListener('playing', () => {
-        document.getElementById('audio').pause()
-      })
-    }
+   
   }, [userSelection])
 
   const inputHandler = (e) => {
@@ -190,7 +195,7 @@ function App() {
     <div className="bot">
       <div className="bot-container">
         <div className="bot-section">
-          <div className="bot-messages" ref={chatRef} style={isInput ? { height: '75%'} : {height: '88%'}}> 
+          <div className="bot-messages" ref={chatRef} style={isInput ? { height: '72%'} : {height: '88%'}}> 
               {chatData.map((obj, i) => renderChat(obj, i))}
           </div>
           <div className="bot-footer">
@@ -215,6 +220,7 @@ function App() {
                 </Button>
               ))}
             </div>}
+            <div className="created-by">Create by : <a href="https://www.facebook.com/abhineet.modi/" target="_blank"> Abhineet Modi</a></div>
           </div>
         </div>
       </div>

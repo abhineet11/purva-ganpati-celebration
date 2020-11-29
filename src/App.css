@@ -175,11 +175,24 @@
     letter-spacing: 0.6px !important;
 }
 
+.created-by {
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.created-by > a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: black;
+}
+
 .bot-button-container {
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin: 10px auto;
+    margin: 4px auto;
 }
 
 @media only screen and (max-width: 1025px) {
