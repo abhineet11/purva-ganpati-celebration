@@ -17,7 +17,7 @@ import eVideo from './assets/e-video.mp4'
 const buttonConfig = [
     {
       label: '📅 When is the wedding?',
-      id: 'wedding date'
+      id: 'wedding date' 
     },
     {
       label: '🕺🏼 When is the Sangeet? 💃',
