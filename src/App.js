@@ -220,7 +220,7 @@ function App() {
                 </Button>
               ))}
             </div>}
-            <div className="created-by">Create by : <a href="https://www.facebook.com/abhineet.modi/" target="_blank"> Abhineet Modi</a></div>
+            <div className="created-by">Created by : <a href="https://www.facebook.com/abhineet.modi/" target="_blank"> Abhineet Modi</a></div>
           </div>
         </div>
       </div>
