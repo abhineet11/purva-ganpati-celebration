@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/purva-ganpati-celebration/static/css/main.70a13a7b.chunk.css",
-    "main.js": "/purva-ganpati-celebration/static/js/main.6425c724.chunk.js",
-    "main.js.map": "/purva-ganpati-celebration/static/js/main.6425c724.chunk.js.map",
+    "main.js": "/purva-ganpati-celebration/static/js/main.2367354a.chunk.js",
+    "main.js.map": "/purva-ganpati-celebration/static/js/main.2367354a.chunk.js.map",
     "runtime-main.js": "/purva-ganpati-celebration/static/js/runtime-main.efd3a01f.js",
     "runtime-main.js.map": "/purva-ganpati-celebration/static/js/runtime-main.efd3a01f.js.map",
     "static/js/2.249a8ca4.chunk.js": "/purva-ganpati-celebration/static/js/2.249a8ca4.chunk.js",
@@ -16,15 +16,15 @@
     "static/media/celeb2.54bb60f5.jpeg": "/purva-ganpati-celebration/static/media/celeb2.54bb60f5.jpeg",
     "static/media/celeb3.71e0f1b6.jpeg": "/purva-ganpati-celebration/static/media/celeb3.71e0f1b6.jpeg",
     "static/media/App.css": "/purva-ganpati-celebration/static/media/gamesh_pic.f5957f54.jpeg",
+    "static/media/ganpatiSong.6b383128.mp3": "/purva-ganpati-celebration/static/media/ganpatiSong.6b383128.mp3",
     "static/media/invitation1.f439e439.jpg": "/purva-ganpati-celebration/static/media/invitation1.f439e439.jpg",
     "static/media/invitation2.aaedc1c8.jpg": "/purva-ganpati-celebration/static/media/invitation2.aaedc1c8.jpg",
-    "static/media/loading.e8db860b.gif": "/purva-ganpati-celebration/static/media/loading.e8db860b.gif",
-    "static/media/wedding.b5887c68.mp3": "/purva-ganpati-celebration/static/media/wedding.b5887c68.mp3"
+    "static/media/loading.e8db860b.gif": "/purva-ganpati-celebration/static/media/loading.e8db860b.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.efd3a01f.js",
     "static/js/2.249a8ca4.chunk.js",
     "static/css/main.70a13a7b.chunk.css",
-    "static/js/main.6425c724.chunk.js"
+    "static/js/main.2367354a.chunk.js"
   ]
 }
