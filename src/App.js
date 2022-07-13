@@ -17,7 +17,7 @@ import Invitation1 from './assets/invitation1.jpg';
 import Invitation2 from './assets/invitation2.jpg';
 import loading from './assets/loading.gif';
 
-import weddingSong from './assets/wedding.mp3';
+import ganpatiSong from './assets/ganpatiSong.mp3';
 //import eVideo from './assets/e-video.mp4'
 
 const buttonConfig = [
@@ -49,7 +49,7 @@ const botConfig = {
       `It's a <b>10 days</b> event starting from <b>31st August</b> - <b>9th September</b>.`,
       `Yeah we know, it's a grand event and we are also planing for regular Aarti, Prashad  followed by <b>Maha-Bhoj</b>!`,
     ],
-    audio: weddingSong,
+    audio: ganpatiSong,
   },
   'where date': {
     text: [`It's in Purva Skywood <b>Club House</b>.`],
@@ -200,8 +200,8 @@ function App() {
   });
 
   useEffect(() => {
-    if (userSelection === 'wedding date') {
-      audioRef.current.src = weddingSong;
+    if (userSelection === 'celebration date') {
+      audioRef.current.src = ganpatiSong;
       audioRef.current.pause();
       audioRef.current.play();
     }
