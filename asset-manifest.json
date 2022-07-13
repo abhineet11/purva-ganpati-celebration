@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/weds/static/css/main.912382af.chunk.css",
-    "main.js": "/weds/static/js/main.32632ffc.chunk.js",
-    "main.js.map": "/weds/static/js/main.32632ffc.chunk.js.map",
-    "runtime-main.js": "/weds/static/js/runtime-main.de1b93ad.js",
-    "runtime-main.js.map": "/weds/static/js/runtime-main.de1b93ad.js.map",
-    "static/js/2.1c88ca0d.chunk.js": "/weds/static/js/2.1c88ca0d.chunk.js",
-    "static/js/2.1c88ca0d.chunk.js.map": "/weds/static/js/2.1c88ca0d.chunk.js.map",
-    "static/js/3.95828ab3.chunk.js": "/weds/static/js/3.95828ab3.chunk.js",
-    "static/js/3.95828ab3.chunk.js.map": "/weds/static/js/3.95828ab3.chunk.js.map",
-    "index.html": "/weds/index.html",
-    "static/css/main.912382af.chunk.css.map": "/weds/static/css/main.912382af.chunk.css.map",
-    "static/js/2.1c88ca0d.chunk.js.LICENSE.txt": "/weds/static/js/2.1c88ca0d.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/weds/static/media/cover.503a24db.jpg",
-    "static/media/img1.8fb68f27.jpeg": "/weds/static/media/img1.8fb68f27.jpeg",
-    "static/media/img2.ea08a180.jpeg": "/weds/static/media/img2.ea08a180.jpeg",
-    "static/media/invitation1.f439e439.jpg": "/weds/static/media/invitation1.f439e439.jpg",
-    "static/media/invitation2.aaedc1c8.jpg": "/weds/static/media/invitation2.aaedc1c8.jpg",
-    "static/media/loading.e8db860b.gif": "/weds/static/media/loading.e8db860b.gif",
-    "static/media/wedding.b5887c68.mp3": "/weds/static/media/wedding.b5887c68.mp3"
+    "main.css": "/purva-ganpati-celebration/static/css/main.70a13a7b.chunk.css",
+    "main.js": "/purva-ganpati-celebration/static/js/main.6425c724.chunk.js",
+    "main.js.map": "/purva-ganpati-celebration/static/js/main.6425c724.chunk.js.map",
+    "runtime-main.js": "/purva-ganpati-celebration/static/js/runtime-main.efd3a01f.js",
+    "runtime-main.js.map": "/purva-ganpati-celebration/static/js/runtime-main.efd3a01f.js.map",
+    "static/js/2.249a8ca4.chunk.js": "/purva-ganpati-celebration/static/js/2.249a8ca4.chunk.js",
+    "static/js/2.249a8ca4.chunk.js.map": "/purva-ganpati-celebration/static/js/2.249a8ca4.chunk.js.map",
+    "static/js/3.553a18fa.chunk.js": "/purva-ganpati-celebration/static/js/3.553a18fa.chunk.js",
+    "static/js/3.553a18fa.chunk.js.map": "/purva-ganpati-celebration/static/js/3.553a18fa.chunk.js.map",
+    "index.html": "/purva-ganpati-celebration/index.html",
+    "static/css/main.70a13a7b.chunk.css.map": "/purva-ganpati-celebration/static/css/main.70a13a7b.chunk.css.map",
+    "static/js/2.249a8ca4.chunk.js.LICENSE.txt": "/purva-ganpati-celebration/static/js/2.249a8ca4.chunk.js.LICENSE.txt",
+    "static/media/celeb1.e0fa0d62.jpeg": "/purva-ganpati-celebration/static/media/celeb1.e0fa0d62.jpeg",
+    "static/media/celeb2.54bb60f5.jpeg": "/purva-ganpati-celebration/static/media/celeb2.54bb60f5.jpeg",
+    "static/media/celeb3.71e0f1b6.jpeg": "/purva-ganpati-celebration/static/media/celeb3.71e0f1b6.jpeg",
+    "static/media/App.css": "/purva-ganpati-celebration/static/media/gamesh_pic.f5957f54.jpeg",
+    "static/media/invitation1.f439e439.jpg": "/purva-ganpati-celebration/static/media/invitation1.f439e439.jpg",
+    "static/media/invitation2.aaedc1c8.jpg": "/purva-ganpati-celebration/static/media/invitation2.aaedc1c8.jpg",
+    "static/media/loading.e8db860b.gif": "/purva-ganpati-celebration/static/media/loading.e8db860b.gif",
+    "static/media/wedding.b5887c68.mp3": "/purva-ganpati-celebration/static/media/wedding.b5887c68.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.de1b93ad.js",
-    "static/js/2.1c88ca0d.chunk.js",
-    "static/css/main.912382af.chunk.css",
-    "static/js/main.32632ffc.chunk.js"
+    "static/js/runtime-main.efd3a01f.js",
+    "static/js/2.249a8ca4.chunk.js",
+    "static/css/main.70a13a7b.chunk.css",
+    "static/js/main.6425c724.chunk.js"
   ]
 }
